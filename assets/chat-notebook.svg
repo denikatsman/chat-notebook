@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Chat Notebook</title>
+  <rect width="128" height="128" rx="29" fill="#1c4037"/>
+  <rect x="34" y="24" width="66" height="80" rx="8" fill="#e8f2ea"/>
+  <path d="M49 24v80" stroke="#85a79a" stroke-width="3"/>
+  <path d="M28 42h12M28 64h12M28 86h12" stroke="#a8c8b9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 46h26M60 60h26M60 74h16" stroke="#317a64" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="88" cy="84" r="8" fill="#d2a95c"/>
+</svg>

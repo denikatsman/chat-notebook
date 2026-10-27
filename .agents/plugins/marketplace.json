@@ -1,0 +1,12 @@
+{
+  "name": "chat-notebook",
+  "interface": { "displayName": "Chat Notebook" },
+  "plugins": [
+    {
+      "name": "chat-notebook",
+      "source": { "source": "local", "path": "./plugins/chat-notebook" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

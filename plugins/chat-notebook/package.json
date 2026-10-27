@@ -1,0 +1,21 @@
+{
+  "name": "chat-notebook",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild notebook.js --bundle --format=esm --minify --outfile=dist/notebook.js",
+    "prepare-runtime": "node prepare-runtime.mjs",
+    "start": "node server.mjs",
+    "test": "node --test store.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "2.0.3",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "express": "5.3.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
